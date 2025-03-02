@@ -13,10 +13,12 @@
 #Author: Siobhán Maher
 
 
-i = float(input("Enter minus 1 "))
-while i == -1:
-     print ("Thank you for entering minus 1")
-     if i == -1:
-        break
-else:
-  print("Please enter minus 1")
+val = int(input("Enter minus 1: "))
+if val == -1:
+    print("Thank you for entering minus 1")
+while val != -1:
+     print ("Please enter minus 1: ")
+     val = input ("Enter minus 1!!!!")
+     if val == -1:
+        print("Thank you for entering minus 1")
+    
